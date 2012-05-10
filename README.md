@@ -5,9 +5,9 @@ Just a little glue is a very simple page management package. It was created to a
 
 * Demo: http://glue.fiddlyio.com  (very, very simple)
 * Live examples:
-** http://hiv.umn.edu
-** http://oliverands.com
-** http://sewlisette.com
+ * http://hiv.umn.edu
+ * http://oliverands.com
+ * http://sewlisette.com
 
 # Requirements
 * Apache web server
