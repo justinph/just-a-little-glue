@@ -19,8 +19,13 @@ $detail_name = '';
 # Set the section name based on the requested file name.
 $qstring = explode('/',$_SERVER['REQUEST_URI']);
 
-
 array_shift($qstring); # move over to eliminate first blank entry
+
+# if the url has a query string, such as a ?utm_source=... or similar, we pop that off and ignore it.
+if ( strpos(end($qstring),"?") !== false){
+	array_pop($qstring);
+}
+
 
 # process section
 if ($qstring[0] != ''){
